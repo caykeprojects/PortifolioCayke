@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informações profissionais.">
+    <title>Sobre mim | Cayke Vilani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-code" aria-hidden="true"></div>
+    <header class="site-header">
+        <a class="logo" href="index.html"><span class="logo-bracket">&lt;</span>CaykeVilani<span
+                class="logo-bracket">/&gt;</span></a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><i
+                class="fa-solid fa-bars"></i></button>
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a class="nav-link" href="index.html"><span>01.</span> Início</a>
+            <a class="nav-link active" href="sobre.html"><span>02.</span> Sobre mim</a>
+            <a class="nav-link" href="projetos.html"><span>03.</span> Projetos</a>
+            <a class="nav-link" href="github.html"><span>04.</span> GitHub Stats</a>
+            <a class="nav-link" href="stack-contato.html"><span>05.</span> Stack & Contato</a>
+        </nav>
+    </header>
+
+    <main class="page-container internal-page">
+        <section class="section-heading">
+            <h1><span>02.</span> Sobre mim</h1>
+            <div class="heading-line"></div>
+        </section>
+
+        <section class="about-tabs" aria-label="Conteúdo sobre mim">
+            <div class="about-tab-list" role="tablist" aria-label="Seções da página Sobre mim">
+                <button class="about-tab-button active" type="button" role="tab" aria-selected="true"
+                    aria-controls="painel-conheca" data-about-tab="conheca">
+                    <i class="fa-solid fa-user"></i> Me conheça
+                </button>
+               
+            </div>
+
+            <div class="about-tab-content active" id="painel-conheca" role="tabpanel" data-about-content="conheca">
+                <article class="content-panel about-profile-panel">
+                    <div class="about-profile-header">
+                        <div>
+                            <h2>Me conheça</h2>
+                        </div>
+                        <span class="about-status"><span></span> Disponível para oportunidades</span>
+                    </div>
+
+                    <div class="about-summary-grid">
+                        <div class="about-text">
+                            <p>Sou estudante de Análise e Desenvolvimento de Sistemas, atualmente no 4º semestre, e
+                                desenvolvedor em formação, apaixonado por tecnologia e pelo desenvolvimento de soluções
+                                digitais. Tenho maior familiaridade com desenvolvimento web, utilizando principalmente
+                                HTML5, CSS3 e JavaScript, além de conhecimentos em Git, GitHub, SQL e Power BI.</p>
+                            <p>Ao longo da minha formação, venho construindo minha base técnica por meio de projetos
+                                acadêmicos e pessoais, colocando em prática conceitos de lógica de programação,
+                                desenvolvimento web, banco de dados e resolução de problemas. Entre os projetos
+                                desenvolvidos, estão aplicações web, sistemas acadêmicos e projetos voltados à criação
+                                de soluções funcionais e intuitivas.</p>
+                            <p>Também possuo experiência profissional na área de suporte técnico, atuando com software e
+                                dispositivos. Essa experiência contribuiu para desenvolver minha capacidade de análise e
+                                resolução de problemas, comunicação com usuários e trabalho em equipe, além de ampliar
+                                minha visão sobre tecnologia e suas aplicações no dia a dia.</p>
+                            <p>Tenho como objetivo iniciar minha carreira na área de desenvolvimento de software, buscando uma oportunidade como Desenvolvedor Júnior em Desenvolvimento, onde possa aplicar meus conhecimentos, aprender novas tecnologias e contribuir para projetos reais.</p>
+                        </div>
+
+                        <aside class="about-highlights" aria-label="Destaques do perfil">
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div><strong>Formação</strong><span>Análise e Desenvolvimento de Sistemas — UNINOVE</span>
+                                </div>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-code"></i>
+                                <div><strong>Foco</strong><span>Desenvolvimento Web e back-End</span></div>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fa-brands fa-java"></i>
+                                <div><strong>Principal linguagem</strong><span>JavaScript</span></div>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div><strong>Localização</strong><span>São Paulo — SP</span></div>
+                            </div>
+                        </aside>
+                    </div>
+''
+                </article>
+            </div>
+
+          
+
+     
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p><span>&lt;/&gt;</span> Desenvolvido por Cayke Vilani — <span id="current-year"></span></p>
+    </footer>
+</body>
+
+</html>
