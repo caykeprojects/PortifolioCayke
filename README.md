@@ -1,5 +1,7 @@
 # Portfólio de Cayke Vilani
 
+<!-- Este arquivo documenta o objetivo, a estrutura e a execução do projeto -->
+
 Este projeto é um portfólio pessoal desenvolvido em HTML e CSS para apresentar informações sobre mim, meus projetos, tecnologias e canais de contato.
 
 ## Tecnologias utilizadas

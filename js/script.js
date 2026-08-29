@@ -1,3 +1,4 @@
+// ===== Menu mobile e navegação =====
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.main-nav');
 
@@ -19,6 +20,7 @@ if (menuButton && navigation) {
   });
 }
 
+// ===== Abas de projetos =====
 const tabButtons = document.querySelectorAll('[data-project-tab]');
 const tabContents = document.querySelectorAll('[data-project-content]');
 
@@ -41,13 +43,13 @@ if (tabButtons.length && tabContents.length) {
     });
   });
 }
-//|Projeto //
+// ===== Rodapé dinâmico =====
 const yearElement = document.querySelector('#current-year');
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
 
-// Abas internas da página Sobre mim
+// ===== Abas internas da página Sobre mim =====
 const aboutTabButtons = document.querySelectorAll('[data-about-tab]');
 const aboutTabContents = document.querySelectorAll('[data-about-content]');
 
@@ -71,7 +73,7 @@ if (aboutTabButtons.length && aboutTabContents.length) {
   });
 }
 
-// Linha do tempo profissional interativa
+// ===== Linha do tempo profissional interativa =====
 const careerButtons = document.querySelectorAll('[data-career]');
 const careerDetails = document.querySelectorAll('[data-career-detail]');
 
@@ -95,7 +97,7 @@ if (careerButtons.length && careerDetails.length) {
   });
 }
 
-// Ampliação das imagens dos certificados
+// ===== Modal de imagens dos certificados =====
 const certificateModal = document.querySelector('#certificate-modal');
 const certificateModalImage = certificateModal?.querySelector('img');
 const certificateModalClose = certificateModal?.querySelector('.certificate-modal-close');

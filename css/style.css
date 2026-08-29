@@ -1,3 +1,4 @@
+/* ===== Paleta e variáveis globais ===== */
 :root {
   --background: #09050f;
   --background-alt: #0d0718;
@@ -21,6 +22,7 @@
   --font-body: "Inter", sans-serif;
 }
 
+/* ===== Base do layout ===== */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -58,6 +60,7 @@ img { display: block; max-width: 100%; }
 button { font: inherit; }
 code { color: var(--pink); font-family: var(--font-code); }
 
+/* ===== Cabeçalho e navegação ===== */
 .site-header {
   width: 100%;
   height: var(--header-height);
@@ -115,6 +118,7 @@ code { color: var(--pink); font-family: var(--font-code); }
   cursor: pointer;
 }
 
+/* ===== Layout de páginas e hero ===== */
 .page-container { width: min(calc(100% - 48px), var(--max-width)); margin: 0 auto; }
 .home-page { min-height: calc(100vh - var(--header-height) - 70px); display: flex; align-items: center; }
 .hero-section {
